@@ -7,7 +7,7 @@
                 <input value="{{ $nhan_su->id }}" name="nhansu_id" type="hidden">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
-                    <h4 class="modal-title"><i class="fa fa-plus"></i> Thêm mới HĐLĐ</h4>
+                    <h4 class="modal-title"><i class="fa fa-plus"></i> Thêm mới Hợp đồng</h4>
                 </div>
                 <div class="modal-body">
                     <div class="row">
