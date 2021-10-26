@@ -10,23 +10,7 @@ use Illuminate\Support\Facades\Auth;
 class CompanyController extends Controller
 {
     public function init(){
-        // \Setting::set('company.name', 'Công ty TNHH Thịnh Phong');
-        // \Setting::set('company.address', '923 Lê Hồng Phong, Phước Long, Nha Trang, Khánh Hòa');
-        // \Setting::set('company.phone', '0258 3881168');
-        // \Setting::set('company.fax', '0258 3882066');
-        // \Setting::set('company.logo', '');
-        // \Setting::set('company.nguoi_dai_dien', 'Nguyễn Văn Phong');
-        // \Setting::set('company.chuc_vu', 'Giám đốc');
-        // \Setting::set('company.quoc_tich', 'Việt Nam');
-        // try{
-        //     \Setting::save();
-        //     Log::info('Người dùng ID:'.Auth::user()->id.' đã khởi tạo thông tin công ty');
-        //     return redirect()->route('company.index')->with('status_success', 'Khởi tạo thông tin công ty thành công!');
-        // }
-        // catch(\Exception $e){
-        //     Log::error($e);
-        //     return redirect()->route('company.index')->with('status_error', 'Xảy ra lỗi khi khởi tạo thông tin công ty!');
-        // }
+        
     }
 
     public function index(){
