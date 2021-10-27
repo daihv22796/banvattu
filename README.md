@@ -15,10 +15,11 @@ npm install
 Tạo file .env từ file .env mẫu
 
 cp .env.example .env
+Tạo CSDL trong phpmyadmin có tên banvattu, import CSDL bằng file banvattu.sql
 
 Cấu hình biến môi trường trong file .env
 
-DB_DATABASE= tên database
+DB_DATABASE= banvattu
 
 DB_USERNAME= tên đăng nhập
  
